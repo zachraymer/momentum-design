@@ -10,6 +10,7 @@ import Button from './components/button';
 import Checkbox from './components/checkbox';
 import Chip from './components/chip';
 import Coachmark from './components/coachmark';
+import Dialog from './components/dialog';
 import Divider from './components/divider';
 import FilterChip from './components/filterchip';
 import FormfieldGroup from './components/formfieldgroup';
@@ -61,14 +62,17 @@ import {
 // Components Exports
 export {
   AlertChip,
+  Appheader,
   Avatar,
   AvatarButton,
   Badge,
+  Brandvisual,
   Bullet,
   Button,
   Checkbox,
   Chip,
   Coachmark,
+  Dialog,
   Divider,
   FilterChip,
   FormfieldGroup,
@@ -80,28 +84,26 @@ export {
   List,
   ListItem,
   Marker,
+  OptGroup,
+  Option,
   Popover,
   Presence,
+  Progressbar,
+  Progressspinner,
   Radio,
   RadioGroup,
+  ScreenreaderAnnouncer,
+  Searchfield,
+  Select,
   Spinner,
   Tab,
+  TabList,
   Text,
+  Textarea,
   ThemeProvider,
   Toggle,
-  VirtualizedList,
-  Option,
-  OptGroup,
-  Progressbar,
-  ScreenreaderAnnouncer,
-  Textarea,
   Tooltip,
-  Searchfield,
-  Brandvisual,
-  Appheader,
-  Select,
-  TabList,
-  Progressspinner,
+  VirtualizedList,
 };
 // Types Exports
 export type {
